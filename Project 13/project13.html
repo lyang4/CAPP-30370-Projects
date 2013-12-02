@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+		<meta name="description" content="Project 13">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Lisa Yang's Project 13</title>
+		<style>
+			.box {
+				margin:2em;
+				width:250px;
+			  	height:250px;
+				background-color:orange;}
+		
+		</style>
+		</head>
+		
+		<body>
+			
+			<h2>1. Alert Button</h2>
+			<button onClick="showAlert()">Alert</button>
+			<script>
+				function showAlert() {
+				alert('You just clicked a JavaScript button.');
+				}
+			</script>
+			
+			<h2>2. Prompt Button</h2>
+			<button onClick="showPrompt()">Prompt</button>
+			<script>
+				function showPrompt() {
+				var name=prompt("What is your name?");
+				console.log(name)
+				console.log(name)
+				console.log(name)
+				console.log(name)
+				console.log(name)
+				}
+			</script>
+			
+			<h2>3. Color Array</h2>
+			<div id="colors" onload="colorlist()">
+			</div>
+			<script>
+				var array1=['Red','Orange','Yellow','Green','Blue','Indigo','Violet'];
+  
+   for(i = 0; i < 7; i++) { 
+    document.write(array1[i]);
+    document.write('<br>');
+  }
+
+			</script>
+			
+			<h2>4. Mouse Events</h2>
+			<div class="box" onmouseover="mouseover()" onmouseout="mouseout()"></div>
+			<script>
+				function mouseover() {
+					console.log("Mouse entered the box.")
+					}
+				function mouseout() {
+					console.log("Mouse left the box.")
+					}
+			</script>
+			
+			<h2>5. Are the values equal?</h2>
+			 <label for="first">First</label><input type="text" id="first" name="First">
+			 <label for="second">Second</label><input type="text" id="second" name="Second">
+			 <button id="check">Check</button>
+			 
+			 <script>
+			var checkbutton = document.getElementById("check");
+			checkbutton.addEventListener("click", function() 
+			{
+			if (document.getElementById("first").value == document.getElementById("second").value) 
+				{
+				alert("True");
+				}
+			else {
+				alert("False");
+				};
+			});
+
+			</script>
+					
+			
+		</body>
+		
+	</html>	

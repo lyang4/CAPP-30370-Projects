@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html><head>
+<title>Transitions</title>
+<meta charset="utf-8" />
+<meta name="description" content="Project 11" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+h1,h2 {text-align:center;}
+
+img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.photo1{
+  -webkit-transition:all 0.35 ease-in-out;
+}
+.photo1:hover{
+-webkit-transform:rotate(180deg);
+}
+
+.photo2{
+  -webkit-transition:all 0.35 ease-in-out;
+}
+.photo2:hover{
+-webkit-transform:scale(1.5);
+}
+
+.photo3{
+  -webkit-transition:all 0.35 ease-in-out;
+}
+.photo3:hover{
+-webkit-transform:skewX(20deg);
+}
+
+.box1 {
+	width:300px;
+	height:300px;
+	background-color:orange;
+	box-shadow: 5px 5px 3px black;
+	margin:auto;
+	-webkit-transition:all 0.35 ease-in-out;
+}
+
+.box1:hover {
+	background-color:black;
+	box-shadow: 5px 5px 3px orange;
+}
+
+.box2{
+  margin:auto;
+  width:300px;
+  height:300px;
+ background-color:blue;
+  -webkit-transition:all 0.35 ease-in-out;
+}
+.box2:hover{
+-webkit-transform:rotate(25deg) scale(1.05);
+  -webkit-transform-origin:top right;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Transitions</h1>
+<h2>Photo 1</h2>
+<img class="photo1"alt="pumpkin1" src="pumpkin1.jpg"> 
+
+<h2>Photo 2</h2>
+<img class="photo2" alt="pumpkin2" src="pumpkin2.jpg"> 
+
+<h2>Photo 3</h2>
+
+<img class="photo3" alt="pumpkin3" src="pumpkin3.jpg"> 
+
+<h2>Box 1</h2>
+  <div class="box1"></div>
+
+<h2>Box 2</h2>
+  <div class="box2"></div>
+
+
+</body>
+</html>
+
+
+
+

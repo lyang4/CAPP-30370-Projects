@@ -1,0 +1,45 @@
+body{
+background-color: white;
+margin: 0 10%;
+font-family: san-serif;
+font-size: 1em;
+}
+
+
+header{
+text-align: center;
+font-family: serif;
+font-weight: normal;
+text-transform: uppercase;
+border-bottom: 1px solid #57b1dc;
+margin-top: 20px;
+font-size: 2em;
+}
+
+h1{
+font-size: 1.5em;
+}
+
+h2 {
+font-size: 1em;
+}
+
+th, td {border:1px solid gray}
+
+footer{font-size: 1em;}
+
+@viewport {width:device-width; zoom:1;}
+* {-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+
+body {margin:1em;}
+
+nav ul {margin:0; padding:0; list-style:none;}
+nav a {display:block; padding:.5em;}
+
+.site-footer {clear:both; padding:1em; text-align:center; border-top:1px solid black;}
+
+
+
+
+
+

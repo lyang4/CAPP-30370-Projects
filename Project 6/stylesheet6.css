@@ -1,0 +1,36 @@
+
+body {
+	font-size:100%; font-family: Helvetica, Arial, Verdana, "Sans-Serif";
+	background-image: url(hoffman.png);
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:green;
+}
+
+figure {
+	float:right;
+	padding-left:2px;
+	padding-right:1px;
+}
+
+figcaption {
+	text-align:center;
+	font-weight:400;
+}
+
+figure img {
+	border:6px solid green;
+	border-radius: 5px;
+	box-shadow: 8px 6px 3px rgba(45,85,45,0.8);
+}
+
+blockquote {
+	background-color:#E3E4C6;
+	border: 3px solid;
+	background-image: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+	padding: 10px 10px;
+
+}

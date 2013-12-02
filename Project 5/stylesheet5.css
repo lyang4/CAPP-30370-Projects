@@ -1,0 +1,28 @@
+
+body {
+	font-size:100%; font-family:"Sans-Serif", Helvetica, Arial, Verdana;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Serif, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:green;
+}
+
+figure {
+	float:right;
+	padding-left:2px;
+	padding-right:1px;
+}
+
+figcaption {
+	text-align:center;
+	font-weight:400;
+}
+
+figure img {
+	border:3px solid green;
+}
+
+blockquote {
+	background-color:#E3E4C6;
+}
